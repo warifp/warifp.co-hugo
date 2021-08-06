@@ -1,0 +1,83 @@
+baseurl      = "https://warifp.co"
+title        = "WARIFP"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Programmer (full-time) and as a freelancer Security Analyst // Digital Marketing (halftime)"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog, warifp"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Wahyu Arif Purnomo"
+    subtitle = "Home"
+    keywords = "warifp"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "warifp"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    # identifier = "blog"
+    # name       = "Blog"
+    # url        = "/posts"
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/WahyuArifP"
+
+  [[params.social]]
+    name = "facebook"
+    url  = "https://facebook.com/warifp"
+  
+  [[params.social]]
+    name = "telegram"
+    url  = "https://t.me/warifp"
+
+  [[params.social]]
+    name = "keybase"
+    url  = "https://keybase.io/warifp"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hi@warifp.co"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/warifp"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/warifp"
+
+  [[params.social]]
+    name = "discord"
+    url  = "https://discordapp.com/users/355202795407802370"
