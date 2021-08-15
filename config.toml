@@ -41,6 +41,9 @@ disableHugoGeneratorInject = false
     dateformNum     = "2006-01-02"
     dateformNumTime = "2006-01-02 15:04"
 
+    # Toogle
+    enableThemeToggle = true
+
     # Subtitle for home
     homeSubtitle = "Programmer (full-time) and as a freelancer Security Analyst // Digital Marketing (halftime)"
 
@@ -54,6 +57,8 @@ disableHugoGeneratorInject = false
     description = "My new homepage or blog"
     keywords = "homepage, blog, warifp"
     images = [""]
+
+    defaultTheme=auto
 
 [taxonomies]
     category = "blog"
