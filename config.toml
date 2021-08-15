@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
     keywords = "homepage, blog, warifp"
     images = [""]
 
-    defaultTheme=auto
+    defaultTheme="auto"
 
 [taxonomies]
     category = "blog"
