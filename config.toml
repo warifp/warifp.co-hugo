@@ -45,7 +45,7 @@ disableHugoGeneratorInject = false
     enableThemeToggle = true
 
     # Subtitle for home
-    homeSubtitle = "Programdmer (full-time) and as a freelancer Security Analyst // Digital Marketing (halftime)"
+    homeSubtitle = "Programmer (full-time) and as a freelancer Security Analyst // Digital Marketing (halftime)"
 
     # Set disableReadOtherPosts to true in order to hide the links to other posts.
     disableReadOtherPosts = false
@@ -144,6 +144,12 @@ disableHugoGeneratorInject = false
     ]
 
 [[menu.main]]
+    identifier = "status"
+    name       = "Server Status"
+    url        = "https://status.warifp.co"
+    
+[[menu.main]]
     identifier = "api"
     name       = "API"
     url        = "https://api.warifp.co"
+
