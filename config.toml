@@ -153,3 +153,7 @@ disableHugoGeneratorInject = false
     name       = "API"
     url        = "https://api.warifp.co"
 
+[[menu.main]]
+    identifier = "docs"
+    name       = "Docs"
+    url        = "https://docs.warifp.co"
